@@ -3,12 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainHeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimetionsModule,
+    MatButtonModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
